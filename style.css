@@ -45,3 +45,24 @@ nav a[aria-current="page"]{text-decoration:underline;text-underline-offset:7px}.
 .legal-content ul{padding-left:24px}
 
 @media(max-width:680px){.footer-main,.footer-privacy{flex-direction:column;align-items:flex-start}.footer-privacy nav{width:100%;gap:10px}.legal-content{padding:30px 6% 56px}.legal-content h2{font-size:24px}}
+
+/* Invito alle recensioni: scelta della sede senza script o tracciamento */
+.review-invitation{max-width:1440px;margin:auto;padding:64px 5% 72px;border-top:1px solid var(--line);background:var(--soft);display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:start}
+.review-copy .eyebrow{margin-bottom:20px}
+.review-copy>p:last-child{font-size:16px;line-height:1.8;color:var(--muted);max-width:46ch;margin:24px 0 0}
+.review-action{padding-top:8px;min-width:0}
+.review-choices summary{list-style:none;cursor:pointer;background:var(--ink);color:white;padding:19px 23px;display:flex;align-items:center;justify-content:space-between;gap:24px;font-size:16px;min-height:56px}
+.review-choices summary::-webkit-details-marker{display:none}
+.review-choices summary:hover{background:#163a2e}
+.review-choices summary:focus-visible{outline:3px solid #9c6d31;outline-offset:5px}
+.review-toggle{font-size:26px;line-height:1}
+.review-choices[open] .review-toggle{transform:rotate(45deg)}
+.review-panel{padding-top:22px}
+.review-instruction{margin:0 0 14px;font-size:15px}
+.review-links{display:grid;gap:12px}
+.review-links a{display:block;background:var(--paper);border:1px solid #83988b;padding:17px 20px;min-height:76px}
+.review-links a:hover{background:white;text-decoration:none;border-color:var(--ink)}
+.review-links strong{display:flex;justify-content:space-between;gap:12px;font-size:17px;font-weight:600;line-height:1.4}
+.review-links a>span{display:block;margin-top:6px;font-size:13px;color:var(--muted)}
+.review-note{font-size:13px;line-height:1.7;color:var(--muted);margin:18px 0 0}
+@media(max-width:680px){.review-invitation{grid-template-columns:1fr;gap:28px;padding:48px 6% 54px}.review-action{padding:0}.review-copy h2{font-size:36px}.review-choices summary{padding:18px 20px}}
