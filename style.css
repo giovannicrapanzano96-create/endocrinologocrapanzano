@@ -66,3 +66,9 @@ nav a[aria-current="page"]{text-decoration:underline;text-underline-offset:7px}.
 .review-links a>span{display:block;margin-top:6px;font-size:13px;color:var(--muted)}
 .review-note{font-size:13px;line-height:1.7;color:var(--muted);margin:18px 0 0}
 @media(max-width:680px){.review-invitation{grid-template-columns:1fr;gap:28px;padding:48px 6% 54px}.review-action{padding:0}.review-copy h2{font-size:36px}.review-choices summary{padding:18px 20px}}
+
+/* Allineamento dei titoli nella sezione contatti */
+.contact-detail{padding-top:0}
+.contact-detail .locations{margin-top:0}
+.contact-page .contact .eyebrow{line-height:14px;margin-bottom:30px}
+@media(min-width:681px){.contact-page .contact-detail{padding-top:44px}}
