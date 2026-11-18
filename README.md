@@ -7,7 +7,7 @@ Sito professionale in italiano, realizzato in HTML e CSS standard, senza dipende
 - Home con ritratto professionale e curriculum.
 - Competenze: tiroide, diabete, trattamento dell'obesità, endocrinologia ginecologica, andrologia, ecografia tiroidea, surrene, ipofisi, calcio e paratiroidi, alterazioni del metabolismo.
 - Prestazioni: valutazione specialistica ed ecografia della tiroide.
-- Pagina Contatti separata, raggiungibile dal menu. Sedi Villa Gioia e S-Medical Group Sora, con indirizzi, mappe, telefoni e siti ufficiali anche nella home.
+- Pagina Contatti separata, raggiungibile dal menu. Sede Villa Gioia, Viale S. Domenico, 42, 03039 Sora FR; prenotazioni al 377 590 0247, con mappa e sito ufficiale anche nella home.
 
 ## Aprire e modificare il sito
 
